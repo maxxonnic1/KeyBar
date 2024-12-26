@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Offizielle Webseite der Key Bar. Entdecken Sie unsere Angebote, Events und vieles mehr.">
+    <title>Key Bar</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Startseite</a></li>
+                <li><a href="#menu">Menü</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#reservations">Reservierung</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Willkommen in der Key Bar</h1>
+            <p>Erleben Sie das einzigartige Ambiente und unsere vielfältigen Angebote.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Unser Menü</h2>
+            <p>Entdecken Sie unsere Auswahl an Speisen und Getränken.</p>
+            <ul>
+                <li>Drink 1 - CHF 10</li>
+                <li>Drink 2 - CHF 12</li>
+                <li>Snack 1 - CHF 8</li>
+                <li>Snack 2 - CHF 9</li>
+            </ul>
+        </section>
+
+        <section id="events">
+            <h2>Events</h2>
+            <p>Bleiben Sie auf dem Laufenden über unsere kommenden Veranstaltungen.</p>
+            <ul>
+                <li>Live-Musik: Freitag, 20:00 Uhr</li>
+                <li>Themenabend: Samstag, 18:00 Uhr</li>
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Galerie</h2>
+            <p>Einblicke in unsere Bar und Veranstaltungen.</p>
+            <div>
+                <img src="images/bar1.jpg" alt="Bar Innenansicht">
+                <img src="images/event1.jpg" alt="Event in der Bar">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <p>Adresse: Musterstraße 123, 12345 Bazenheid</p>
+            <p>Telefon: +41 12 345 67 89</p>
+            <p>Email: info@keybar.ch</p>
+            <p>Öffnungszeiten: Montag - Samstag, 17:00 - 02:00 Uhr</p>
+        </section>
+
+        <section id="reservations">
+            <h2>Reservierungen</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="date">Datum:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Uhrzeit:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <label for="guests">Gästeanzahl:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+                
+                <button type="submit">Reservieren</button>
+            </form>
+        </section>
+
+        <section id="feedback">
+            <h2>Feedback</h2>
+            <form>
+                <label for="feedback">Teilen Sie uns Ihre Meinung mit:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Key Bar | Datenschutz | Impressum</p>
+    </footer>
+</body>
+</html>
