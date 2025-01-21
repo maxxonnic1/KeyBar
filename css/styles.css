@@ -884,7 +884,7 @@ nav:hover {
 }
 
 button, .btn {
-    background: linear-gradient(90deg, #b68d40, #e1bf75, #ffdd99);
+    background: linear-gradient(90deg, #a77e35, #d4af60, #eacb88);
     background-size: 200%;
     animation: goldShine 4s infinite alternate;
     transition: all 0.3s ease-in-out;
@@ -940,12 +940,35 @@ h1, h2, h3 {
 }
 
 .footer-box a {
-    color: #c9a86a; /* Dezentes Gold statt Blau */
-    text-decoration: none; /* Unterstrich entfernen */
+    color: #e0c085; /* Leichtes Gold statt reinem Weiß */
+    text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
 
 .footer-box a:hover {
-    color: #e1bf75; /* Etwas helleres Gold bei Hover */
-    text-shadow: none;
+    color: #d4af37; /* Kräftiger Goldton beim Hover */
+    text-shadow: 0px 0px 8px rgba(255, 215, 0, 0.6);
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, #d4af37, #e1bf75);
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+}
+
+nav a:hover::after {
+    width: 100%;
 }
