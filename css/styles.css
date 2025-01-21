@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #fff;
+    color: #F5F5F5;
     background-color: #2b2b2b;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #4e342e, #3e2723);
+    background: linear-gradient(90deg, #2B2B2B, #2A2A2A);
     padding: 15px;
     text-align: center;
     width: 100%;
@@ -31,7 +31,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #F5F5F5;
     text-decoration: none;
 }
 
@@ -148,7 +148,7 @@ footer {
 .feedback-form button,
 .reservation-form button {
     border-radius: 8px; /* Einheitliche Abrundung für Buttons */
-    background-color: #4e342e;
+    background-color: #2B2B2B;
     color: white;
     border: none;
     padding: 10px;
@@ -159,7 +159,7 @@ footer {
 
 .feedback-form button:hover,
 .reservation-form button:hover {
-    background-color: #3e2723; /* Dunklere Farbe beim Hover */
+    background-color: #2A2A2A; /* Dunklere Farbe beim Hover */
 }
 
 
@@ -177,7 +177,7 @@ footer {
 
 .feedback-form button {
     border-radius: 8px; /* Einheitliche Abrundung für den Button */
-    background-color: #4e342e;
+    background-color: #2B2B2B;
     color: white;
     border: none;
     padding: 10px;
@@ -187,7 +187,7 @@ footer {
 }
 
 .feedback-form button:hover {
-    background-color: #3e2723; /* Hover-Farbe für Button */
+    background-color: #2A2A2A; /* Hover-Farbe für Button */
 }
 
 
@@ -209,7 +209,7 @@ footer {
 .feedback-form button {
     width: 150px;
     border-radius: 8px; /* Abrundung hinzugefügt */
-    background-color: #4e342e;
+    background-color: #2B2B2B;
     color: white;
     border: none;
     padding: 10px;
@@ -219,7 +219,7 @@ footer {
 }
 
 .feedback-form button:hover {
-    background-color: #3e2723; /* Hover-Farbe für Konsistenz */
+    background-color: #2A2A2A; /* Hover-Farbe für Konsistenz */
 }
 
 
@@ -240,7 +240,7 @@ footer {
 .feedback-form button {
     width: 150px;
     border-radius: 8px; /* Abrundung hinzugefügt */
-    background-color: #4e342e; /* Braun, passend zum Design */
+    background-color: #2B2B2B; /* Braun, passend zum Design */
     color: white;
     border: none;
     padding: 10px;
@@ -250,7 +250,7 @@ footer {
 }
 
 .feedback-form button:hover {
-    background-color: #3e2723; /* Hover-Farbe für Konsistenz */
+    background-color: #2A2A2A; /* Hover-Farbe für Konsistenz */
 }
 
 
@@ -613,7 +613,7 @@ input, textarea, select {
 
 /* Einheitliche Buttons */
 button {
-    background-color: #654321; /* Braune Farbe für Konsistenz */
+    background-color: #3A3A3A; /* Braune Farbe für Konsistenz */
     color: white;
     font-size: 18px;
     padding: 10px 20px;
@@ -623,7 +623,7 @@ button {
 }
 
 button:hover {
-    background-color: #4a2c1f; /* Dunklere Farbe beim Hover */
+    background-color: #3A3A3A; /* Dunklere Farbe beim Hover */
 }
 
 /* Einheitliche Container */
@@ -640,7 +640,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #5a2d0c;
+    background-color: #e8c785; text-shadow: 0px 0px 14px rgba(255, 215, 0, 0.7); font-weight: bold;
     display: flex;
     justify-content: center;
 }
@@ -855,4 +855,97 @@ nav {
 body {
     margin: 0;
     padding: 0;
+}
+
+@keyframes bgMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background: linear-gradient(180deg, #0d0d0d, #1c1c1c 40%, #2a2a2a 100%);
+    background-size: 400% 400%;
+    animation: bgMove 15s ease infinite;
+}
+
+nav {
+    transition: all 0.5s ease-in-out;
+}
+
+nav:hover {
+    box-shadow: 0px 4px 20px rgba(212, 175, 55, 0.5);
+    border-bottom: 3px solid rgba(212, 175, 55, 0.8);
+}
+
+@keyframes goldShine {
+    0% { background-position: 0%; }
+    100% { background-position: 100%; }
+}
+
+button, .btn {
+    background: linear-gradient(90deg, #b68d40, #e1bf75, #ffdd99);
+    background-size: 200%;
+    animation: goldShine 4s infinite alternate;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover, .btn:hover {
+    background: linear-gradient(90deg, #e1bf75, #ffdd99, #b68d40);
+    transform: scale(1.05);
+    box-shadow: 0px 8px 18px rgba(255, 215, 0, 0.9);
+}
+
+.box {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.box:hover {
+    border: 2px solid rgba(212, 175, 55, 0.8);
+    box-shadow: 0px 10px 30px rgba(212, 175, 55, 0.3);
+}
+
+a {
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #ffdd99;
+    text-shadow: 0px 0px 12px rgba(255, 223, 150, 0.6);
+}
+
+h1, h2, h3 {
+    animation: textGlow 6s infinite alternate;
+}
+
+@keyframes textGlow {
+    0% { text-shadow: 0px 0px 5px rgba(255, 215, 0, 0.3); }
+    100% { text-shadow: 0px 0px 15px rgba(255, 215, 0, 0.6); }
+}
+
+.footer-box {
+    background: rgba(50, 50, 50, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.footer-box a {
+    color: #c9a86a; /* Dezentes Gold statt Blau */
+    text-decoration: none; /* Unterstrich entfernen */
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-box a:hover {
+    color: #e1bf75; /* Etwas helleres Gold bei Hover */
+    text-shadow: none;
 }
