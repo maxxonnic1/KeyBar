@@ -266,3 +266,580 @@ footer {
     resize: none;
     background-color: white;
 }
+
+
+/* Menü-Text im Blocksatz und zentriert */
+.menu-container {
+    max-width: 400px;  /* Begrenzte Breite für bessere Lesbarkeit */
+    text-align: justify; /* Blocksatz-Ausrichtung */
+    margin: 0 auto; /* Zentrierung der Box */
+}
+
+
+/* Menü-Container für zentrierte und professionelle Darstellung */
+.menu-container {
+    max-width: 400px;  /* Begrenzte Breite für bessere Lesbarkeit */
+    text-align: justify; /* Blocksatz für die Textausrichtung */
+    margin: 0 auto; /* Zentrierung der gesamten Box */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Sorgt für horizontale Zentrierung */
+    padding: 20px;
+}
+
+/* Stil für die Menü-Liste */
+.menu-container ul {
+    list-style: none; /* Entfernt die Punkte der Liste */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Stellt sicher, dass der Blocksatz greift */
+}
+
+/* Stil für die Menü-Punkte */
+.menu-container li {
+    font-size: 18px;
+    margin-bottom: 10px; /* Abstand zwischen den Punkten */
+    text-align: justify; /* Blocksatz für die einzelnen Elemente */
+}
+
+
+/* Menü-Container für eine zentrierte und professionelle Darstellung */
+.menu-container {
+    max-width: 400px;  /* Begrenzte Breite für bessere Lesbarkeit */
+    text-align: center; /* Zentralisierte Textausrichtung */
+    margin: 0 auto; /* Zentrierung der gesamten Box */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontale Zentrierung */
+    padding: 20px;
+}
+
+/* Menü-Liste für eine saubere Darstellung */
+.menu-container ul {
+    list-style: none; /* Entfernt die Punkte der Liste */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Stellt sicher, dass der Blocksatz greift */
+}
+
+/* Menü-Punkte mit perfekter Ausrichtung */
+.menu-container li {
+    font-size: 18px;
+    margin-bottom: 10px; /* Abstand zwischen den Punkten */
+    display: flex;
+    justify-content: space-between; /* Sorgt für gleichmäßige Abstände */
+    width: 100%;
+    max-width: 350px;
+    font-family: 'Courier New', monospace; /* Monospace für perfekte Ausrichtung */
+}
+
+/* Spezielle Formatierung für Preisangaben */
+.menu-container li span {
+    flex: 1;
+    text-align: right;
+}
+
+
+/* Menü-Container für eine professionelle mittige Darstellung */
+.menu-container {
+    max-width: 400px;  /* Begrenzte Breite für saubere Lesbarkeit */
+    text-align: center; /* Zentralisierte Textausrichtung */
+    margin: 0 auto; /* Zentrierung der gesamten Box */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontale Zentrierung */
+    padding: 20px;
+}
+
+/* Menü-Liste für eine exakte Spalten-Ausrichtung */
+.menu-container ul {
+    list-style: none; /* Entfernt die Punkte der Liste */
+    padding: 0;
+    margin: 0;
+    width: 100%; /* Stellt sicher, dass die Elemente gleichmäßig verteilt werden */
+}
+
+/* Menü-Punkte mit exakter Spalten-Formatierung */
+.menu-container li {
+    font-size: 18px;
+    margin-bottom: 10px; /* Abstand zwischen den Punkten */
+    display: grid;
+    grid-template-columns: auto 80px; /* Automatische Breite für Namen, feste Breite für Preise */
+    justify-content: space-between; /* Perfekte Spaltenstruktur */
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Stil für Preisangaben mit fixer Spalte */
+.menu-container li span {
+    text-align: right; /* Richtet Preise exakt aus */
+}
+
+
+/* Menü-Container für eine exakte und professionelle mittige Darstellung */
+.menu-container {
+    max-width: 400px;  /* Begrenzte Breite für saubere Lesbarkeit */
+    text-align: left; /* Links ausgerichtet für saubere Struktur */
+    margin: 0 auto; /* Zentrierung der gesamten Box */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontale Zentrierung */
+    padding: 20px;
+}
+
+/* Menü-Liste für eine exakte Spalten-Ausrichtung */
+.menu-container ul {
+    list-style: none; /* Entfernt die Punkte der Liste */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* Menü-Punkte mit perfekter vertikaler Ausrichtung */
+.menu-container li {
+    font-size: 18px;
+    margin-bottom: 10px; /* Abstand zwischen den Punkten */
+    display: grid;
+    grid-template-columns: auto minmax(80px, 100px); /* Linker Text flexibel, rechter Preis fix */
+    justify-content: space-between; /* Perfekte Spaltenstruktur */
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Stil für Preise mit fixer Ausrichtung */
+.menu-container li span {
+    text-align: right; /* Preise exakt rechtsbündig ausrichten */
+    display: block;
+    min-width: 80px; /* Feste Breite für Konsistenz */
+}
+
+
+/* Menü-Container für perfekte mittige Darstellung */
+.menu-container {
+    max-width: 400px;  /* Begrenzte Breite für bessere Lesbarkeit */
+    text-align: center; /* Zentralisierte Textausrichtung */
+    margin: 0 auto; /* Zentrierung der gesamten Box */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontale Zentrierung */
+    padding: 20px;
+    font-family: inherit; /* Setzt Schriftart auf ursprünglichen Wert */
+}
+
+/* Menü-Liste für perfekte Preis-Ausrichtung */
+.menu-container ul {
+    list-style: none; /* Entfernt die Punkte der Liste */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* Menü-Punkte mit exakter Ausrichtung */
+.menu-container li {
+    font-size: 18px;
+    margin-bottom: 10px; /* Abstand zwischen den Punkten */
+    display: flex;
+    justify-content: space-between; /* Perfekte Spaltenstruktur */
+    width: 100%;
+    max-width: 350px;
+}
+
+/* Stil für die Preise, um perfekte Ausrichtung sicherzustellen */
+.menu-container li span.price {
+    min-width: 100px; /* Feste Breite für gleichmäßige Ausrichtung */
+    text-align: right; /* Preise exakt rechtsbündig ausrichten */
+}
+
+
+/* Menü-Container für perfekte Zentrierung */
+.menu-container {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Tabelle für perfekte Spalten-Ausrichtung */
+.menu-container table {
+    width: 100%;
+    border-collapse: collapse; /* Keine Lücken zwischen Spalten */
+}
+
+/* Stil für Menüeinträge */
+.menu-container td {
+    font-size: 18px;
+    padding: 8px 10px;
+}
+
+/* Stil für die Preis-Spalte */
+.menu-container td.price {
+    text-align: right;
+    width: 100px; /* Feste Breite für gleiche Ausrichtung */
+}
+
+
+/* Menü-Container für eine perfekte Darstellung */
+.menu-container {
+    max-width: 450px;  /* Etwas breiter für bessere Lesbarkeit */
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Tabelle für perfekte Spalten-Ausrichtung */
+.menu-container table {
+    width: 100%;
+    border-collapse: collapse; /* Keine Lücken zwischen Spalten */
+}
+
+/* Stil für Menüeinträge */
+.menu-container td {
+    font-size: 18px;
+    padding: 12px 15px; /* Mehr Abstand für bessere Lesbarkeit */
+}
+
+/* Stil für die erste Spalte (Menünamen) */
+.menu-container td:first-child {
+    text-align: left; /* Linksbündig für saubere Struktur */
+    width: 70%; /* Mehr Platz für den Namen */
+}
+
+/* Stil für die Preis-Spalte */
+.menu-container td.price {
+    text-align: right; /* Preise exakt ausrichten */
+    width: 30%; /* Feste Breite für gleiche Ausrichtung */
+    font-weight: bold; /* Preise hervorheben */
+}
+
+
+/* Menü-Container für eine perfekte Darstellung */
+.menu-container {
+    max-width: 450px;  /* Optimale Breite für Lesbarkeit */
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Tabelle für perfekte Spalten-Ausrichtung */
+.menu-container table {
+    width: 100%;
+    border-collapse: collapse; /* Keine Lücken zwischen Spalten */
+}
+
+/* Stil für Menüeinträge */
+.menu-container td {
+    font-size: 18px;
+    padding: 12px 15px; /* Mehr Abstand für bessere Lesbarkeit */
+}
+
+/* Erste Spalte (Menüname) mit perfekter Ausrichtung */
+.menu-container td:first-child {
+    text-align: left; /* Linksbündig für saubere Struktur */
+    width: 75%; /* Mehr Platz für den Namen */
+}
+
+/* Zweite Spalte (Preise) perfekt ausrichten */
+.menu-container td.price {
+    text-align: right;
+    width: 25%;
+    font-weight: bold; /* Preise hervorheben */
+    white-space: nowrap; /* Sorgt dafür, dass "CHF 14" nicht umbrechen kann */
+}
+
+
+/* Menü-Container für exakte Darstellung */
+.menu-container {
+    max-width: 450px;  
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Tabelle für perfekte Spaltenausrichtung */
+.menu-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Stil für Menüeinträge */
+.menu-container td {
+    font-size: 18px;
+    padding: 12px 15px;
+}
+
+/* Erste Spalte (Menünamen) mit flexibler Breite */
+.menu-container td:first-child {
+    text-align: left;
+    width: 70%; /* Mehr Platz für längere Namen */
+}
+
+/* Zweite Spalte (Preise) exakt ausrichten */
+.menu-container td.price {
+    text-align: right;
+    width: 30%; /* Feste Breite für exakte Spaltenausrichtung */
+    font-weight: bold;
+    white-space: nowrap; /* Sorgt dafür, dass "CHF 8" nicht verschoben wird */
+}
+
+
+/* Einheitliche Schriftart und Größe für alle Seiten */
+body {
+    font-family: Arial, sans-serif; /* Einheitliche moderne Schrift */
+    font-size: 18px; /* Konsistente Schriftgröße */
+    color: #ffffff; /* Einheitliche Textfarbe */
+    background-color: #222; /* Dunkler Hintergrund für modernes Design */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Einheitliche Überschriften */
+h1 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Einheitliche Formulare und Eingabefelder */
+input, textarea, select {
+    font-size: 16px;
+    padding: 10px;
+    width: 80%;
+    max-width: 350px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Einheitlich abgerundete Eingabefelder */
+}
+
+/* Einheitliche Buttons */
+button {
+    background-color: #654321; /* Braune Farbe für Konsistenz */
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a2c1f; /* Dunklere Farbe beim Hover */
+}
+
+/* Einheitliche Container */
+.container {
+    background-color: #444; /* Einheitliche Boxen */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+/* Einheitliche Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #5a2d0c;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Einheitliche Listen-Darstellung für perfekte Textausrichtung */
+.container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left; /* Linksbündig für saubere Struktur */
+    max-width: 400px; /* Begrenzte Breite für saubere Darstellung */
+}
+
+/* Listelemente mit perfekter Ausrichtung */
+.container ul li {
+    font-size: 18px;
+    padding: 8px 0; /* Mehr Abstand für bessere Lesbarkeit */
+    display: flex;
+    align-items: center;
+}
+
+/* Icon-Stil für grüne Haken */
+.container ul li::before {
+    content: "✅";
+    margin-right: 10px; /* Einheitlicher Abstand zum Text */
+}
+
+
+/* Breiteres zentrales Kästchen für mehr Platz */
+.container {
+    max-width: 600px;  /* Erhöhte Breite für bessere Darstellung */
+    padding: 25px;
+}
+
+/* Optimierte Schriftgröße für angenehme Lesbarkeit */
+body {
+    font-size: 16px;  /* Etwas kleinere, aber gut lesbare Schrift */
+}
+
+/* Listen-Elemente mit besserer Anordnung */
+.container ul {
+    max-width: 500px;  /* Mehr Platz für die Liste */
+}
+
+.container ul li {
+    font-size: 16px;  /* Kleinere Schrift für bessere Übersicht */
+    padding: 6px 0;  /* Weniger Abstand für eine kompaktere Darstellung */
+}
+
+
+/* Breiteres zentrales Kästchen für einzeilige Listenpunkte */
+.container {
+    max-width: 700px;  /* Noch breiter für bessere Darstellung */
+    padding: 25px;
+}
+
+/* Listen-Elemente für perfekte Einzeilige Darstellung */
+.container ul {
+    max-width: 650px;  /* Mehr Platz für den Text */
+}
+
+.container ul li {
+    font-size: 16px;
+    padding: 6px 0;
+    white-space: nowrap; /* Verhindert Zeilenumbruch */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* Perfekte Zentrierung der Box */
+.container {
+    max-width: 700px;  /* Breite bleibt angepasst */
+    padding: 25px;
+    margin: 0 auto; /* Zentriert die Box perfekt */
+}
+
+/* Listen-Elemente mit perfekter Ausrichtung */
+.container ul {
+    max-width: 650px;
+    margin: 0 auto; /* Auch die Liste exakt zentrieren */
+}
+
+/* Verhindert doppelte Emojis und hält Struktur sauber */
+.container ul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+/* Emoji perfekt platzieren */
+.container ul li::before {
+    content: "✅";
+    margin-right: 10px;
+    flex-shrink: 0; /* Verhindert Verschiebung des Texts */
+}
+
+
+/* Perfekte absolute Zentrierung */
+.container {
+    max-width: 700px;  /* Breite bleibt erhalten */
+    padding: 25px;
+    margin: auto; /* Horizontale Zentrierung */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Perfekte Zentrierung */
+}
+
+/* Footer fixieren, damit er nicht zu weit hochrutscht */
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Fakten unter "Was Sie bei uns erwartet" perfekt zentrieren */
+.container ul {
+    max-width: 600px; /* Anpassung für mehr Platz */
+    margin: 0 auto; /* Exakte Zentrierung */
+    text-align: center; /* Mittige Ausrichtung des Textes */
+}
+
+/* Icons perfekt mit dem Text ausrichten */
+.container ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Exakte mittige Positionierung */
+    font-size: 16px;
+    padding: 6px 0;
+}
+
+/* Icons von Text mit Abstand trennen */
+.container ul li::before {
+    content: "✅";
+    margin-right: 12px; /* Einheitlicher Abstand zwischen Icon und Text */
+}
+
+
+/* Perfekte Ausrichtung des Menüs mit gleichmäßigen Abständen */
+.menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;  /* Anpassung für harmonische Breite */
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+.menu-item span {
+    flex: 1;
+    text-align: center;  /* Zentriert das "-" perfekt */
+}
+
+/* Korrektur für perfekte Preis-Ausrichtung */
+.menu-item .price {
+    flex: 0 0 80px; /* Feste Breite für perfekte Gleichmäßigkeit */
+    text-align: right;
+}
+
+
+/* Entfernt das Minus-Zeichen und stellt sicher, dass Abstände einheitlich sind */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    font-size: 18px;
+    padding: 8px 0;
+}
+
+.menu-item span::after {
+    content: "";
+    margin: 0;
+}
+
+html, body { overflow: hidden; }
+
+nav { width: 100vw; }
