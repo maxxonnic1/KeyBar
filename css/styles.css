@@ -49,6 +49,30 @@ main {
     margin-top: 80px; /* Abstand zum feststehenden Header */
 }
 
+main h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+main ul li {
+    padding: 5px 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
 footer {
     text-align: center;
     padding: 10px;
