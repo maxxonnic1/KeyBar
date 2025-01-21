@@ -80,3 +80,189 @@ footer {
     position: absolute;
     bottom: 0;
 }
+
+.reservation-form .form-group input {
+    width: 180px;
+    max-width: 100%;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.reservation-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.reservation-form .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.reservation-form button {
+    width: 150px;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.feedback-form textarea {
+    width: 180px;
+    max-width: 100%;
+    height: 80px;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    resize: none;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.feedback-form button {
+    width: 150px;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.feedback-form textarea,
+.reservation-form .form-group input {
+    border-radius: 8px; /* Einheitliche Abrundung */
+}
+
+.feedback-form button,
+.reservation-form button {
+    border-radius: 8px; /* Einheitliche Abrundung für Buttons */
+    background-color: #4e342e;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover,
+.reservation-form button:hover {
+    background-color: #3e2723; /* Dunklere Farbe beim Hover */
+}
+
+
+.feedback-form textarea {
+    width: 180px;
+    max-width: 100%;
+    height: 80px;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Abrundung hinzugefügt */
+    text-align: center;
+    resize: none;
+}
+
+.feedback-form button {
+    border-radius: 8px; /* Einheitliche Abrundung für den Button */
+    background-color: #4e342e;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #3e2723; /* Hover-Farbe für Button */
+}
+
+
+/* Einheitliche Abrundung für das Feedback-Textfeld */
+.feedback-form textarea {
+    width: 180px;
+    max-width: 100%;
+    height: 80px;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Abrundung fixiert */
+    text-align: center;
+    resize: none;
+    background-color: white;
+}
+
+/* Einheitliche Abrundung für den Absenden-Button */
+.feedback-form button {
+    width: 150px;
+    border-radius: 8px; /* Abrundung hinzugefügt */
+    background-color: #4e342e;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #3e2723; /* Hover-Farbe für Konsistenz */
+}
+
+
+/* Einheitliche Abrundung & feste Größe für das Feedback-Textfeld */
+.feedback-form textarea {
+    width: 250px;  /* Größer als normale Eingabefelder */
+    height: 100px; /* Mehr Platz für Text */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Abrundung hinzugefügt */
+    text-align: left; /* Linksbündig für normalen Text */
+    resize: none; /* Keine Größenänderung mehr möglich */
+    background-color: white;
+}
+
+/* Stil für den Absenden-Button (gleich wie der Reservieren-Button) */
+.feedback-form button {
+    width: 150px;
+    border-radius: 8px; /* Abrundung hinzugefügt */
+    background-color: #4e342e; /* Braun, passend zum Design */
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+    background-color: #3e2723; /* Hover-Farbe für Konsistenz */
+}
+
+
+/* Breiteres Feedback-Textfeld für bessere Lesbarkeit */
+.feedback-form textarea {
+    width: 300px;  /* Erhöhte Breite */
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Abgerundete Ecken */
+    text-align: left;
+    resize: none;
+    background-color: white;
+}
