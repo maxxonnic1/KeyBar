@@ -1,16 +1,26 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #fff;
     background-color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
 }
+
 header {
     background: linear-gradient(90deg, #4e342e, #3e2723);
     padding: 15px;
     text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
+
 nav ul {
     list-style: none;
     display: flex;
@@ -19,7 +29,30 @@ nav ul {
     padding: 0;
     margin: 0;
 }
+
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 80px; /* Abstand zum feststehenden Header */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
