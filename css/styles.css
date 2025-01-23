@@ -1013,3 +1013,60 @@ nav a:hover::after {
 .btn-animated:hover::after {
     left: 100%;
 }
+
+
+/* Mehr Abstand zwischen Öffnungszeiten und dem nächsten Kasten */
+.opening-hours {
+    margin-bottom: 50px; /* Mehr Abstand nach unten */
+}
+
+.expectations-section {
+    margin-top: 80px; /* Verschiebt den Kasten weiter nach unten */
+}
+
+
+
+/* Styling für die Öffnungszeiten-Tabelle für perfekte Ausrichtung */
+.opening-hours-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.opening-hours-table td {
+    padding: 5px 15px;
+    font-size: 18px;
+    color: white;
+}
+
+.opening-hours-table td:first-child {
+    text-align: left;
+    width: 50%;
+    font-weight: bold;
+}
+
+.opening-hours-table td:last-child {
+    text-align: right;
+    width: 50%;
+}
+
+
+
+/* Öffnungszeiten-Box breiter machen und Zeilenabstand reduzieren */
+.opening-hours {
+    width: 70%; /* Breiter für bessere Sichtbarkeit */
+    padding: 25px; /* Mehr Platz innerhalb des Blocks */
+}
+
+.opening-hours-table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.opening-hours-table td {
+    padding: 3px 10px; /* Weniger Abstand für kompaktere Darstellung */
+    font-size: 18px;
+    color: white;
+}
+
