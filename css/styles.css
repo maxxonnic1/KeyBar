@@ -1097,3 +1097,18 @@ nav a:hover::after {
     width: 250px; /* Einheitliche Breite für perfekte Ausrichtung */
     font-weight: bold;
 }
+.btn-animated {
+    padding: 20px 30px;  /* Größeres Padding */
+    font-size: 24px;    /* Größere Schriftgröße */
+}
+.welcome-container {
+    margin-bottom: 20px;  /* Verringert den Abstand zum nächsten Element */
+}
+
+.welcome-container {
+    margin-bottom: 10px;  /* Verringert den Abstand zwischen dem Button und den Öffnungszeiten */
+}
+
+.opening-hours h2 {
+    margin-top: 10px;  /* Verringert den Abstand zum Titel der Öffnungszeiten */
+}
